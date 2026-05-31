@@ -116,8 +116,11 @@ public class Binary_tree {
         // Post-order output
         System.out.print("POST ORDER: ");
         tree.postorder(tree.root);
-
-
+        
+        System.out.println(); // Space
+        
+        System.out.println("Search" + tree.search(tree.root, 20));
+        System.out.println("Search" + tree.search(tree.root, 40));
     }
 
 }
