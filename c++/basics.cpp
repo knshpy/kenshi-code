@@ -47,10 +47,6 @@ int main() {
     for(int i = 0; i < 5; i++) {
         std::cout << "hello" << "\n";
 
-        
-    int a,b;
-    std::cout << "Enter two numbers: ";
-
     }
 
 
